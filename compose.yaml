@@ -1,0 +1,11 @@
+services:
+  web-portofolio:
+
+    build:
+      context: ./app
+      dockerfile: Containerfile
+    container_name: web_portofolio_saya
+
+    ports:
+      - "8080:80"
+    restart: always
