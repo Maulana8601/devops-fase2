@@ -67,8 +67,8 @@ jobs:
           file: ./app/Containerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/web-app:latest
-            ghcr.io/${{ github.repository_owner }}/web-app:${{ github.sha }}
+            ghcr.io/Maulana8601/web-app:latest
+            ghcr.io/Maulana8601/web-app:${{ github.sha }}
 
   # ─────────────────────────────
   # JOB 3: Deploy (Simulasi)
